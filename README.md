@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+```docker-compose build && \
+  docker-compose run web bin/setup && \
+  docker-compose up
+  ```
