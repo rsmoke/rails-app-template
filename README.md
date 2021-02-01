@@ -24,8 +24,11 @@ Things you may want to cover:
 * ...
 
 - ```git clone <repo>```
+- ```docker-compose run --rm web rails db:create```
+- ```docker-compose run --rm web rails db:migrate```
 - ```docker-compose up```
 
+#### If you add anything to the app you will need to run ??????
 ```
-docker-compose build && docker-compose run web bin/setup && docker-compose up
+docker-compose up --build
 ```
