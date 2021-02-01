@@ -23,7 +23,6 @@ Things you may want to cover:
 
 * ...
 
-```docker-compose build && \
-  docker-compose run web bin/setup && \
-  docker-compose up
-  ```
+```
+docker-compose build && docker-compose run web bin/setup && docker-compose up
+```
