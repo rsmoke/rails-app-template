@@ -25,6 +25,7 @@ Things you may want to cover:
 
 - ```git clone <repo>```
 - ```cd <app directory>```
+- ```docker-compose run --rm web bundle```
 - ```docker-compose run --rm web rails db:create```
 - ```docker-compose run --rm web rails db:migrate```
 - ```docker-compose up```
