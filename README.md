@@ -28,6 +28,7 @@ Things you may want to cover:
 - ```docker-compose run --rm web bundle```
 - ```docker-compose run --rm web rails db:create```
 - ```docker-compose run --rm web rails db:migrate```
+- ```docker-compose run --rm web yarn```
 - ```docker-compose up```
 
 #### If you add anything to the app you will need to run ??????
