@@ -34,4 +34,7 @@ Things you may want to cover:
 #### If you add anything to the app you will need to run ??????
 ```
 docker-compose up --build
-```
+````
+### If your app is ugly run
+```docker-compose run --rm web yarn```
+- then call Rita B for help
